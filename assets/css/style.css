@@ -1,0 +1,137 @@
+/* Flatly edit */
+ .navbar {
+ 	border-radius: 0;
+ }
+
+/* Home / Portfolio */
+.project a {
+	font-size: 20px;
+	margin-bottom:5px;
+}
+
+.project img {
+	margin-bottom: 20px;
+}
+
+/* Sidebar */
+h2 {
+	text-align: center;
+	font-size: 24px;
+}
+
+/* contact me */
+div.input-group{
+	margin-bottom: 20px;
+}
+
+/* about me */
+
+.profile-image {
+	float:left;
+	width:38%;
+	border:1px solid #e2e2e2;
+	margin: 0 15px 10px 0;
+}
+
+#about-me span.dropcap {
+	font-size: 34px;
+}
+
+#about-me p {
+	font-size:18px;
+	line-height:1.5em;
+	text-align: justify;
+	margin-top: -1px;
+}
+
+.footer p {
+	margin-top: 10px;
+}
+
+
+/* Sticky footer styles (https://getbootstrap.com/examples/sticky-footer/)
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+footer.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 1200px)  {
+	
+	#about-me p {
+		font-size:16px;
+		line-height:1.5em;
+		margin-top: 0px;
+	}
+
+	.profile-image {
+		float:left;
+		width:40%;
+		border:1px solid #e2e2e2;
+		margin: 0 15px 15px 0;
+}
+
+@media screen and (max-width: 768px)  {
+	
+	#about-me p {
+		font-size:16px;
+		line-height:1.5em;
+		margin-top: 0px;
+	}
+
+	.profile-image {
+		float:left;
+		width:30%;
+		border:1px solid #e2e2e2;
+		margin: 0 15px 15px 0;
+}
+	
+}
+
+@media screen and (max-width: 640px)  {
+	
+	#about-me p {
+		font-size:14px;
+		line-height:1.5em;
+		margin-top: 0px;
+	}
+
+	.profile-image {
+		float:left;
+		width:40%;
+		border:1px solid #e2e2e2;
+		margin: 0 10px 10px 0;
+	}
+}
+
+@media screen and (max-width: 500px) {
+
+	h2 {
+		font-size:20px;
+	}
+
+	#about-me span.dropcap {
+		font-size: 28px;
+	}
+	.profile-image {
+		float:left;
+		width:38%;
+		border:1px solid #e2e2e2;
+		margin: 0 10px 10px 0;
+	}
+
+}
