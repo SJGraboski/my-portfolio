@@ -6988,6 +6988,7 @@ input:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+
 a.list-group-item.active,
 a.list-group-item.active:hover,
 a.list-group-item.active:focus {
